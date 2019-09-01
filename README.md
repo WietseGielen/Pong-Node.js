@@ -1,4 +1,4 @@
-# ![alt-text](./node-js.svg) Pong-Node.js
+# <img src="node-js.svg" width="20"/> Pong in Node.js
 
 ## Objectives
 - [x] Make a pong game in Node.js
