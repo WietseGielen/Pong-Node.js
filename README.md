@@ -1,4 +1,4 @@
-# <img src="node-js.svg" width="25"/> Pong-Node.js
+# <img src="node-js.svg" width="20"/> Pong-Node.js
 
 ## Objectives
 - [x] Make a pong game in Node.js
