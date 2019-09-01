@@ -1,0 +1,54 @@
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  background: #000000;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.join-leave {
+  display: block;
+  margin: 0 auto;
+  font-family: monospace;
+  font-size: 2em;
+  position: fixed;
+  top: 0.5em;
+  left: 0;
+  right: 0;
+  width: 5em;
+  text-transform: uppercase;
+  background: none;
+  color: white;
+}
+
+.gamepad {
+  font-size: 16em;
+  color: white;
+  background: none;
+  border: none;
+}
+
+.accelerometer-indicator {
+  display: block;
+  margin: 0 auto;
+  width: 11px;
+  height: 302px;
+  background: #ffffff;
+  margin-top: -348px;
+}
+
+.gamepad-container {
+  padding: 50px;
+}
+
+.gamepad-up {
+  float: right;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "deepstream.io Pong",
+  "scripts": {
+    "deepstream": "deepstream start",
+    "start": "budo src/index.js --live --serve dist/bundle.js -- -t babelify -t envify | opnr | garnish",
+    "build": "browserify src/index.js -t babelify -t envify | uglifyjs > dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WietseGielen/Pong-Node.js"
+  },
+  "keywords": [
+    "pong",
+    "game"
+  ],
+  "author": "gburnett",
+  "bugs": {
+    "url": "https://github.com/WietseGielen/Pong-Node.js/issues"
+  },
+  "homepage": "https://github.com/WietseGielen/Pong-Node.js",
+  "private": true,
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "budo": "^4.1.0",
+    "envify": "^3.4.1",
+    "garnish": "^2.1.3",
+    "opnr": "^1.0.4",
+    "uglifyjs": "^2.4.10"
+  },
+  "licence": "MIT",
+  "dependencies": {
+    "deepstream.io": "^1.0.2",
+    "deepstream.io-client-js": "^1.0.0",
+    "once-event-listener": "^1.0.0",
+    "onetime": "^1.1.0",
+    "qrcodejs2": "0.0.2"
+  }
+}

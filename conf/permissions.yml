@@ -1,0 +1,21 @@
+# matchID is just a random UUID for multiple "rooms"
+record:
+  "$matchID-player/$id":
+    create: "user.id == 'server'"
+    delete: "user.id == 'server'"
+    write: "user.id == $id"
+  "*":
+    create: true
+    write: true
+    read: true
+    delete: true
+    listen: true
+event:
+  "*":
+    publish: false
+    subscribe: false
+    listen: false
+rpc:
+  "*":
+    provide: false
+    request: false
