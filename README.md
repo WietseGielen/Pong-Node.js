@@ -3,7 +3,7 @@
 ## Objectives
 - [x] Make a pong game in Node.js
 - [x] deepstream.io
-- [ ] Deploy with socket.io
+- [ ] socket.io
 
 ## Screenshot
 ![alt-text](./screen.png)
