@@ -12,8 +12,8 @@ body { background-color: black; color: #AAA; font-size: 12pt; padding: 1em; }
 .sidebar .parts li a.selected   { color: #F08010; }
 .sidebar .parts li a i          { color: #AAA;    }
 .sidebar .parts li a.selected i { color: #F08010; }
-.settings-container                        { text-align: center; margin: 0 auto; width: 100%; margin-bottom: 1em;}
-.settings-container .settings              { display: inline; line-height: 1.2em; height: 1.2em;}
+.settings-container                        { float: left; display: inline-block; padding-top: 9px; width: 18%; margin-bottom: 1em;}
+.settings-container .settings              { line-height: 1.2em; height: 1.2em;}
 .settings-container .settings.size         { }
 .settings-container .settings.speed        { margin-bottom: 1em; }
 .settings-container .settings label        { vertical-align: middle; }
@@ -24,6 +24,7 @@ body { background-color: black; color: #AAA; font-size: 12pt; padding: 1em; }
 .qrcode                                    { margin: 1em auto; width: 128px; }
 .online                                     { text-align: center; color: #eee;}
 .online.checked                             { color: #000; }
+input                                       { background: none;}
 
 @media screen and (min-width: 0px) {
   .sidebar { display: none; }

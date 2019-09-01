@@ -1,7 +1,7 @@
 {
   "name": "pong",
   "version": "1.0.0",
-  "description": "deepstream.io Pong",
+  "description": "Pong remake with Node.js, deepstream.io and socket.io",
   "scripts": {
     "deepstream": "deepstream start",
     "start": "budo src/index.js --live --serve dist/bundle.js -- -t babelify -t envify | opnr | garnish",

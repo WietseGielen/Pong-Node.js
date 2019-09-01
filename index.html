@@ -14,31 +14,32 @@
     <a target="_blank" href="#"><div class="qrcode" id="qrcode2"></div></a>
     <div class="online online-2">online</div>
   </div>
-  <div class="sidebar">
-    <h2>Player 1</h2>
-    <a target="_blank" href="#"><div class="qrcode" id="qrcode1"></div></a>
-    <div class="online online-1">online</div>
+  <div style="flex-direction: column; display: flex;">
+    <div class="sidebar">
+      <h2>Player 1</h2>
+      <a target="_blank" href="#"><div class="qrcode" id="qrcode1"></div></a>
+      <div class="online online-1">online</div>
+    </div>
+
+    <div class="settings-container">
+      <div class='settings'>
+          <input type='checkbox' id='sound'>
+        <label for='sound'> Sound</label>
+      </div>
+
+      <div class='settings'>
+          <input type='checkbox' id='footprints'>
+        <label for='footprints'> Footprints</label>
+      </div>
+
+      <div class='settings'>
+        <input type='checkbox' id='predictions'>
+        <label for='predictions'> AI predictions</label>
+      </div>
+    </div>
   </div>
 
-  <div class="settings-container">
-    <div class='settings'>
-      <label for='sound'>Sound: </label>
-      <input type='checkbox' id='sound'>
-    </div>
-
-    <div class='settings'>
-      <label for='footprints'>Footprints: </label>
-      <input type='checkbox' id='footprints'>
-    </div>
-
-    <div class='settings'>
-      <label for='predictions'>AI predictions: </label>
-      <input type='checkbox' id='predictions'>
-    </div>
-
-  </div>
-
-  <canvas id="game">
+  <canvas id="game" style="margin-top: -316px; padding-left: 165px;">
     <div id="unsupported">
       Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
     </div>

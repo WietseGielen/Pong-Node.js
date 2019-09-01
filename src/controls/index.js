@@ -3,8 +3,7 @@ const defaults = require('../pongDefaults')
 const keyMap = require('../keyMap.js')
 const utils = require('../utils')
 const CONSTANTS = utils.getQueryStringAsObject()
-const GAME_ID = CONSTANTS.gameId
-const DEEPSTREAM_HOST = CONSTANTS.dsHost || process.env.DEEPSTREAM_HOST || window.location.hostname + ':6020'
+const GAME_ID = '192.168.0.160:6020'
 const IS_TOUCH_DEVICE = 'ontouchstart' in window
 const FACTOR = defaults.tiltFactor
 
