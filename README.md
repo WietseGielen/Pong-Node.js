@@ -6,11 +6,5 @@ This is a fork of [deepstreamIO/ds-demo-pong](https://github.com/deepstreamIO/ds
  - [pong game in node.js](https://codeincomplete.com/posts/javascript-pong/)
  - [adding deepstream.io](https://codeforgeek.com/building-pong-game-using-deepsteam-io/)
 
-
-## Objectives
-- [x] PONG in Node.js
-- [x] deepstream.io
-- [ ] socket.io
-
 ## Screenshot
 ![alt-text](./screen.png)
